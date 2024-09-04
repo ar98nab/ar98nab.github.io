@@ -1,0 +1,54 @@
+.projects-pagecard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  background-color: #000; /* Black background */
+  padding: 2rem;
+}
+.projects-page{
+  margin-top: 10px;
+  background-color: #000;
+  padding-top: 20px;
+}
+.projects-title {
+  color: #fff; /* White text */
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  color: #fff; 
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-buttons {
+  margin-top: 1rem;
+}
+
+.github-button, .deploy-button {
+  background-color: #fff; 
+  color: #000; 
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.github-button:hover, .deploy-button:hover {
+  background-color: #007bff; 
+  color: #fff; 
+}
