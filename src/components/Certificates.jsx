@@ -1,16 +1,22 @@
 import React from 'react';
 import './css/certificate.css';
+import college_certificate from"../Images/college certificate.jpeg"
+import twelveth_certificate from"../Images/12th certificate.jpeg"
+import tenth_certificate from"../Images/10th certificate.jpeg"
+import drama_certificate from"../Images/Drama certificate.jpeg"
+import drawing_certificate from"../Images/Drawing certificate.jpeg"
+
 
 const academicCertificates = [
   { name: 'Full-Stack Web Development (Masai School)', image: '' },
-  { name: 'B.Tech in Electronics and Telecommunication', image: 'src/Images/college certificate.jpeg' },
-  { name: 'High Secondary Examination', image: 'src/Images/12th certificate.jpeg' },
-  { name: 'Secondary Examination', image: 'src/Images/10th certificate.jpeg' }
+  { name: 'B.Tech in Electronics and Telecommunication', image: college_certificate},
+  { name: 'High Secondary Examination', image:twelveth_certificate },
+  { name: 'Secondary Examination', image: tenth_certificate }
 ];
 
 const extracurricularCertificates = [
-  { name: 'Drama Training and perfomance', image: 'src/Images/Drama certificate.jpeg' },
-  { name: 'Senior Diploma for Drawing', image: 'src/Images/Drawing certificate.jpeg' },
+  { name: 'Drama Training and perfomance', image: drama_certificate },
+  { name: 'Senior Diploma for Drawing', image: drawing_certificate },
   
 ];
 

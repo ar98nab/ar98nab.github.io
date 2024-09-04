@@ -1,12 +1,14 @@
 import React from 'react';
 import './css/about.css';
+import arnab from "../Images/IMG20240817180636.jpg"
+import resume from "../Images/ArnabDutta-FullStackWebDeveloper-6n6r.pdf"
 
 export const About = () => {
   return (
     <section id="about">
       <div className="about-container">
         <div className="about-image">
-          <img src="src/Images/IMG20240817180636.jpg" alt="Arnab Dutta" />
+          <img src={arnab} alt="Arnab Dutta" />
          
         </div>
         <div className="about-content">
@@ -27,7 +29,7 @@ export const About = () => {
             and a passion for creating efficient, user-friendly web applications. 
             I am eager to contribute to dynamic development teams and grow in the fast-paced tech industry.
           </p>
-          <a href="src/Images/ArnabDutta-FullStackWebDeveloper-6n6r.pdf" target="_blank" rel="noopener noreferrer">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             <button className="resume-button">View Resume</button>
           </a>
           <a href="https://github.com/ar98nab" target="_blank" rel="noopener noreferrer">
