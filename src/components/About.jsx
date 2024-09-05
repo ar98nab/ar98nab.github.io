@@ -28,8 +28,8 @@ export const About = () => {
             and a passion for creating efficient, user-friendly web applications. 
             I am eager to contribute to dynamic development teams and grow in the fast-paced tech industry.
           </p>
-          <a href={resume} target="_blank" rel="noopener noreferrer">
-            <button className="resume-button">View Resume</button>
+          <a href={resume} download={"resume.pdf"} target="_blank" rel="noopener noreferrer">
+            <button className="resume-button">Download Resume</button>
           </a>
           <a href="https://github.com/ar98nab" target="_blank" rel="noopener noreferrer">
             <button className="resume-button">View GitHub</button>
