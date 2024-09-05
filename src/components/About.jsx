@@ -12,7 +12,6 @@ export const About = () => {
          
         </div>
         <div className="about-content">
-          <h2>About Me</h2>
           <p>
             I am an Engineering graduate with a passion for technology and a drive to make a difference in the world. 
             I have completed my B.Tech in Electronics and Telecommunication from IIEST, Shibpur. Additionally, I have 

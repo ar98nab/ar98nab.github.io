@@ -14,7 +14,7 @@ export const Navbar = () => {
         <a href="#home">Arnab Dutta</a>
       </div>
       <ul className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">Home</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#project">Project</a></li>
         <li><a href="#certificates">Certificates</a></li>
