@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/certificate.css';
+import masai_certificate from "../Images/Arnab Dutta (2).jpeg"
 import college_certificate from"../Images/college certificate.jpeg"
 import twelveth_certificate from"../Images/12th certificate.jpeg"
 import tenth_certificate from"../Images/10th certificate.jpeg"
@@ -8,7 +9,7 @@ import drawing_certificate from"../Images/Drawing certificate.jpeg"
 
 
 const academicCertificates = [
-  { name: 'Full-Stack Web Development (Masai School)', image: '' },
+  { name: 'Full-Stack Web Development (Masai School)', image: masai_certificate },
   { name: 'B.Tech in Electronics and Telecommunication', image: college_certificate},
   { name: 'High Secondary Examination', image:twelveth_certificate },
   { name: 'Secondary Examination', image: tenth_certificate }
